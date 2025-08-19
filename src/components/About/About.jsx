@@ -1,7 +1,8 @@
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
 // import profileImage from '../../assets/43846.jpg';
-import profileImage from '../../assets/43846.png';
+// import profileImage from '../../assets/43846.png';
+import profileImage from '../../assets/pp.png';
 // import profileImage from '../../assets/43846 (1).jpg';
 
 const About = () => {
