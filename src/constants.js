@@ -35,6 +35,9 @@ import vikrantLogo from './assets/education_logo/vitm.jpg';
 import ubiattendanceLogo from './assets/work_logo/ubiattendance.jpg'
 import ubihrmLogo from './assets/work_logo/ubihrm.jpg';
 import chatifyLogo from './assets/work_logo/image.png';
+import raffilyLogo from './assets/work_logo/Raffily.png';
+import jobportalLogo from './assets/work_logo/JobPortal.png';
+import cardMatching from './assets/work_logo/CardMatching.png';
 
 export const SkillsInfo = [
   {
@@ -147,8 +150,8 @@ export const projects = [
       " An Attendance management System Web App",
     image: ubiattendanceLogo,
     tags: ["HTML", "CSS", "JavaScript", "React JS", "REST API", "Node.Js", "MySql"],
-    github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    webapp: "https://githubprofiledetective.netlify.app/",
+    github: "",
+    webapp: "",
   },
   {
     id: 1,
@@ -157,8 +160,8 @@ export const projects = [
       "An Human Resource Management System(HRMS) Web App.",
     image: ubihrmLogo,
     tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/CSPrep",
-    webapp: "https://csprep.netlify.app/",
+    github: "",
+    webapp: "https://orgbuilder.ubihrm.com/login",
   },
   {
     id: 2,
@@ -167,7 +170,38 @@ export const projects = [
       "A Real Time Chat Application Web App.",
     image: chatifyLogo,
     tags: ["React JS", "API", "HTML", "CSS", "JavaScript", "WebSocket"],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    github: "https://github.com/OmChauhan16/Chatify-Chat-Application",
+    webapp: "https://chatify-chat-application-1.onrender.com/",
   },
+  {
+    id: 3,
+    title: "Raffily",
+    description:
+      "A Real Time Raffle System Web App.",
+    image: raffilyLogo,
+    tags: ["React JS", "API", "HTML", "CSS", "JavaScript", "Node.js", "Express.js"],
+    github: "https://github.com/OmChauhan16/Raffily_Frontend",
+    webapp: "https://gentle-wave-0fa23271e.6.azurestaticapps.net/",
+  },
+  {
+    id: 4,
+    title: "Job Portal",
+    description:
+      "A Job Portal Web App",
+    image: jobportalLogo,
+    tags: ["React JS", "API", "HTML", "CSS", "JavaScript", "Node.js", "Express.js"],
+    github: "https://github.com/OmChauhan16/Job-Portal/tree/master",
+    webapp: "https://job-portal-fs24.onrender.com/",
+  },
+  {
+    id: 5,
+    title: "Card matching Game",
+    description:
+      "A Card Matching Game",
+    image: cardMatching,
+    tags: [, "HTML", "CSS", "JavaScript",],
+    github: "https://github.com/OmChauhan16/Card-Matching-Game/tree/master?tab=readme-ov-file",
+    webapp: "https://omchauhan16.github.io/Card-Matching-Game/",
+  },
+
 ];  
