@@ -37,7 +37,7 @@ import ubihrmLogo from './assets/work_logo/ubihrm.jpg';
 import chatifyLogo from './assets/work_logo/image.png';
 import raffilyLogo from './assets/work_logo/Raffily.png';
 import jobportalLogo from './assets/work_logo/JobPortal.png';
-import cardMatching from './assets/work_logo/CardMatching.png';
+import cardMatching from './assets/work_logo/Cardmatching.png';
 
 export const SkillsInfo = [
   {
