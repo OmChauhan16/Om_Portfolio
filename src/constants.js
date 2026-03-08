@@ -23,10 +23,10 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 import azureLogo from './assets/tech_logo/icons8-azure-240.png';
 import redisLogo from './assets/tech_logo/icons8-redis-48.png';
 import postgresqlLogo from './assets/tech_logo/icons8-postgresql-48.png';
-
+import awsLogo from './assets/tech_logo/aws.jpg'
 // Experience Section Logo's
 import ubitechsolutionsLogo from './assets/company_logo/ubitech_solutions_pvt_ltd_logo.jpg';
-
+import MikkyLogo from "./assets/company_logo/Mikky.png";
 // Education Section Logo's
 
 import vikrantLogo from './assets/education_logo/vitm.jpg';
@@ -34,10 +34,12 @@ import vikrantLogo from './assets/education_logo/vitm.jpg';
 // Project Section Logo's
 import ubiattendanceLogo from './assets/work_logo/ubiattendance.jpg'
 import ubihrmLogo from './assets/work_logo/ubihrm.jpg';
-import chatifyLogo from './assets/work_logo/image.png';
-import raffilyLogo from './assets/work_logo/Raffily.png';
+import chatifyLogo from './assets/work_logo/chatify.png';
+// import raffilyLogo from './assets/work_logo/Raffily.png';
 import jobportalLogo from './assets/work_logo/JobPortal.png';
-import cardMatching from './assets/work_logo/Cardmatching.png';
+// import cardMatching from './assets/work_logo/Cardmatching.png';
+import TaskFlowAI from "./assets/work_logo/TaskFlow.png";
+import Ecommerce from "./assets/work_logo/Ecommerce.png";
 
 export const SkillsInfo = [
   {
@@ -83,7 +85,7 @@ export const SkillsInfo = [
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
       { name: 'Azure', logo: azureLogo },
-
+      { name: 'AWS', logo: awsLogo },
     ],
   },
 ];
@@ -91,22 +93,40 @@ export const SkillsInfo = [
 export const experiences = [
   {
     id: 0,
-    img: ubitechsolutionsLogo,
-    role: "Fullstack Developer",
-    company: "Ubitech Solutions",
-    date: "September 2023 - May 2025",
+    img: MikkyLogo,
+    role: "Full Stack Developer",
+    company: "Mikky Publication Services Pvt Ltd.",
+    date: "September 2025 - Now",
     desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
     skills: [
-      "HTML",
-      "CSS",
       "JavaScript",
-      "React JS",
       "TypeScript",
+      "React JS",
+      "NextJs",
       "Node JS",
       "Tailwind CSS",
       "MongoDb",
       "Redux",
+      'AWS'
+    ],
+  },
+  {
+    id: 1,
+    img: ubitechsolutionsLogo,
+    role: "Full Stack Developer",
+    company: "Ubitech Solutions",
+    date: "September 2023 - May 2025",
+    desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+    skills: [
+      "JavaScript",
+      "TypeScript",
+      "React JS",
+      "Node JS",
       "Next Js",
+      "Tailwind CSS",
+      "MongoDb",
+      "Redux",
+      "AWS"
     ],
   },
   {
@@ -165,6 +185,16 @@ export const projects = [
   },
   {
     id: 2,
+    title: "TaskFlowAI",
+    description:
+      "An AI based Project Management Tool.",
+    image: TaskFlowAI,
+    tags: ["React JS", "NodeJs", "MongoDB", "ExpressJs", "Redis", "WebSocket", 'GroqAI'],
+    github: "https://github.com/OmChauhan16/TaskFlowAI",
+    webapp: "https://taskflowai.onrender.com/",
+  },
+  {
+    id: 3,
     title: "Chatify",
     description:
       "A Real Time Chat Application Web App.",
@@ -173,16 +203,16 @@ export const projects = [
     github: "https://github.com/OmChauhan16/Chatify-Chat-Application",
     webapp: "https://chatify-chat-application-1.onrender.com/",
   },
-  {
-    id: 3,
-    title: "Raffily",
-    description:
-      "A Real Time Raffle System Web App.",
-    image: raffilyLogo,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript", "Node.js", "Express.js"],
-    github: "https://github.com/OmChauhan16/Raffily_Frontend",
-    webapp: "https://gentle-wave-0fa23271e.6.azurestaticapps.net/",
-  },
+  // {
+  //   id: 3,
+  //   title: "Raffily",
+  //   description:
+  //     "A Real Time Raffle System Web App.",
+  //   image: raffilyLogo,
+  //   tags: ["React JS", "API", "HTML", "CSS", "JavaScript", "Node.js", "Express.js"],
+  //   github: "https://github.com/OmChauhan16/Raffily_Frontend",
+  //   webapp: "https://gentle-wave-0fa23271e.6.azurestaticapps.net/",
+  // },
   {
     id: 4,
     title: "Job Portal",
@@ -195,13 +225,24 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Card matching Game",
+    title: "Ecommerce App",
     description:
-      "A Card Matching Game",
-    image: cardMatching,
-    tags: [, "HTML", "CSS", "JavaScript",],
-    github: "https://github.com/OmChauhan16/Card-Matching-Game/tree/master?tab=readme-ov-file",
-    webapp: "https://omchauhan16.github.io/Card-Matching-Game/",
+      "An Ecommerce Web App",
+    image: Ecommerce,
+    tags: ["React JS", "MongoDb", "Redux", "JavaScript", "Node.js", "Express.js"],
+    github: "https://github.com/OmChauhan16/EcommerceApp",
+    webapp: "https://ecommerce-app-g1x5.vercel.app/",
   },
+  // {
+  //   id: 5,
+  //   title: "Card matching Game",
+  //   description:
+  //     "A Card Matching Game",
+  //   image: cardMatching,
+  //   tags: [, "HTML", "CSS", "JavaScript",],
+  //   github: "https://github.com/OmChauhan16/Card-Matching-Game/tree/master?tab=readme-ov-file",
+  //   webapp: "https://omchauhan16.github.io/Card-Matching-Game/",
+  // },
+
 
 ];  

@@ -58,9 +58,13 @@ const Footer = () => {
         </div>
 
         {/* Copyright Text */}
+        {/* <p className="text-sm text-gray-400 mt-6">
+          © 2026 Om Chauhan. All rights reserved.
+        </p> */}
         <p className="text-sm text-gray-400 mt-6">
-          © 2025 Om Chauhan. All rights reserved.
+          © {new Date().getFullYear()} Om Chauhan. All rights reserved.
         </p>
+
       </div>
     </footer>
   );
